@@ -1,0 +1,8 @@
+started from DocDB 5365, v9
+http://minerva-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=5365&version=9
+The open office text document there is partial (no figures).
+The word document is more complete, so start from this.
+
+Decide to use the "filtered web page" format form word to strip out most tags.
+Lots of consequences of going to HTML, e.g., pictures move around and all equations become uneditable.  I think we can live with this for the sake of making editing easy.
+
