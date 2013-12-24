@@ -5,6 +5,6 @@ $(function(){
   
   var currentMenuItem = $("#cssmenu li a[href='" + currentUrl + "']");
   currentMenuItem.parents('li').addClass("active");
-  console.log("currentUrl",currentUrl);
-  console.log("currentMenuItem",currentMenuItem);
+  // console.log("currentUrl",currentUrl);
+  // console.log("currentMenuItem",currentMenuItem);
 });
