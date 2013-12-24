@@ -1,0 +1,45 @@
+
+
+
+div#content {
+  
+/*  background-color: purple;*/
+/*  text-align:center;*/
+/*  width: 900px;*/
+}
+
+#on-this-page
+{
+  margin: 10px;
+}
+
+
+#who-developed
+{
+  float:left;
+  width:400px;
+  min-height:500px;
+  margin: 10px;
+}
+#why
+{
+  float:left;
+  width:400px;
+  min-height:500px;
+  margin: 10px;
+}
+
+#contact
+{
+  float:left;
+  width:400px;
+  margin: 10px;
+}
+
+
+#arachne
+{
+  float:left;
+  width:400px;
+  margin: 10px;
+}
