@@ -4,7 +4,7 @@ $(function(){
   var currentUrl =  url[url.length-1];
   
   var currentMenuItem = $("#cssmenu li a[href='" + currentUrl + "']");
-  currentMenuItem.parent('li').addClass("active");
-  // console.log("currentUrl",currentUrl);
-  // console.log("currentMenuItem",currentMenuItem);
+  currentMenuItem.parents('li').addClass("active");
+  console.log("currentUrl",currentUrl);
+  console.log("currentMenuItem",currentMenuItem);
 });

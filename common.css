@@ -41,6 +41,10 @@ body{
   
 }
 
+.content h2 {
+  font-family: Arial;
+}
+
 
 /* -----------  for the menu bar ------------------ */
 #cssmenu {
@@ -110,7 +114,7 @@ body{
   filter: alpha(opacity=95);
   opacity: 0.95;
   position: absolute;
-  width: 225px;
+  width: 250px;
   z-index: 200;
   /*top:1em;
 		/*left:0;*/
@@ -128,7 +132,7 @@ body{
 }
 #cssmenu li ul a {
   display: block;
-  font-size: 12px;
+  font-size: 8px;
   font-style: normal;
   padding: 0px 10px 0px 15px;
   text-align: left;
