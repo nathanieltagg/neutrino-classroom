@@ -16,15 +16,6 @@ div#content {
 
 #index-intro
 {
-  background-color: #999966;
-  text-align: left;
-	font:12px georgia;
-	color: #003333;
-	line-height:18px;
-	font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 1px solid black;
   margin: 10px;
 }
 
@@ -33,7 +24,7 @@ div#content {
 {
   margin: 10px 5px 20px 10px;
    
-  width:370px;
+  width:400px;
   height: 300px;
   float: left;
 }
@@ -42,7 +33,7 @@ div#content {
 {
   margin: 10px 10px 20px 5px;
   
-  width:370px;
+  width:400px;
   height: 300px;
   float: right;
 }

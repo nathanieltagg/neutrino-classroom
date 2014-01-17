@@ -1,6 +1,23 @@
 @charset 'UTF-8';
 
 
+body{
+/*  background: #CDCDCD;
+  background: -webkit-linear-gradient(#cdcdcd 0%, #e2e2e2 80%, #cdcdcd 100%);
+  background: linear-gradient(#cdcdcd 0%, #e2e2e2 80%, #cdcdcd 100%);
+*/  
+ text-align:center; 
+}
+#everything {
+ width: 900px;
+ border: 1px solid #aaaaaa;
+ -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; 
+
+ display: block;
+ margin-left: auto;
+ margin-right:auto;
+}
+
 #top_title {
 /*  background-color:#999966;*/
 
@@ -22,27 +39,49 @@
 }
 
 
-body{
-  background: #CDCDCD;
-  background: -webkit-linear-gradient(#cdcdcd 0%, #e2e2e2 80%, #cdcdcd 100%);
-  background: linear-gradient(#cdcdcd 0%, #e2e2e2 80%, #cdcdcd 100%);
-  
+
+
+div.concepts {
+  margin: 5px;
 }
 
-.content{
-  background-color: #999966;
+
+
+
+/* ----------- hacked from jquery-ui -------------*/
+
+div.content
+{
   text-align: left;
-	font:12px georgia;
-	color: #003333;
-	line-height:18px;
-	font-weight: bold;
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+  
+  font:12px georgia;
+  color: #003333;
+  line-height:18px;
+  font-weight: bold;
   padding: 10px;
-  border: 1px solid black;
+  /*   ui-widget ui-widget-content ui-helper-clearfix ui-corner-all*/
+  /*ui-widget-content*/
+  border: 1px solid #dddddd; background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333;
+  /*ui-helper-clearfix*/
+  /*  display: inline-block;*/
+  
+  /*  ui-corner-all */
+  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; 
+  margin: 5px;
   
 }
+div.content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }  /*ui-helper-clearfix*/
 
-.content h2 {
-  font-family: Arial;
+
+div.content h2
+{
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+}
+
+div.content h3
+{
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
 }
 
 
