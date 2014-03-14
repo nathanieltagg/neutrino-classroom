@@ -8,6 +8,11 @@ body{
 */  
  text-align:center; 
 }
+
+.under_construction {
+  font-style: italic;
+}
+
 #everything {
  width: 900px;
  border: 1px solid #aaaaaa;
