@@ -5,7 +5,7 @@ use POSIX qw(strftime);
 use Cwd qw/getcwd realpath/;
 
 $num_in_group = 20;
-$infile = "momentum_links.txt";
+$infile = "muon_links.txt";
 
 @kw=keywords();
 $group = $kw[0];
