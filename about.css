@@ -8,38 +8,42 @@ div#content {
 /*  width: 900px;*/
 }
 
-#on-this-page
-{
-  margin: 10px;
-}
 
 
 #who-developed
 {
-  float:left;
-  width:400px;
+  width:405px;
   min-height:500px;
-  margin: 10px;
-}
+  float:left;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
 #why
 {
-  float:left;
-  width:400px;
+  width:405px;
   min-height:500px;
-  margin: 10px;
+  float:left;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #contact
 {
+  width:405px;
   float:left;
-  width:400px;
-  margin: 10px;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
 #arachne
 {
+  width:405px;
   float:left;
-  width:400px;
-  margin: 10px;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

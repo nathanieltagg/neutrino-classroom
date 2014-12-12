@@ -6,20 +6,23 @@ div#content {
 
 #mom-1
 {
-  width:400px;
+  width:405px;
   min-height:500px;
   float:left;
-  margin:10px;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
 #mom-2
 {
-  width:400px;
+  width:405px;
   min-height:500px;
-  
   float:left;
-  margin:10px;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #contact

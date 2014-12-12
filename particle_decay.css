@@ -6,18 +6,22 @@ div#content {
 
 #decay-1
 {
-  width:390px;
+  width:405px;
   min-height:500px;
   float:left;
   margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
 #decay-2
 {
-  width:390px;
+  width:405px;
   min-height:500px;
   
   float:left;
   margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
