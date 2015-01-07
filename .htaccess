@@ -14,3 +14,6 @@ AddHandler server-parsed .inc
 </IFModule>
 
 
+RedirectMatch 404 /\\.svn(/|$)
+RedirectMatch 404 /\\.git(/|$)
+
