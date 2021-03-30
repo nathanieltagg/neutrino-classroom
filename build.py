@@ -7,8 +7,8 @@ def char_range(c1, c2):
         yield chr(c)
 
 tasks = [
-  {"infile":"muon_links.txt","batches":char_range('A','T'),"outfile":"docs/muon_", "n" :20},
-  {"infile":"momentum_links.txt","batches":char_range('A','T'),"outfile":"docs/momentum_", "n" :20},
+  {"infile":"muon_links.txt","batches":char_range('A','T'),"outfile":"muon_", "n" :20},
+  {"infile":"momentum_links.txt","batches":char_range('A','T'),"outfile":"momentum_", "n" :20},
   ];
 
 for task in tasks:
